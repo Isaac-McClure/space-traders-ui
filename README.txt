@@ -1,3 +1,3 @@
-A usable UI for SpaceTraders using pure js.
+A user interface for SpaceTraders using Angular.
 
-This is mostly a project for self-education.
+This is a practice project.
