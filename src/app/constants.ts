@@ -1,0 +1,1 @@
+export const SPACE_TRADERS_API_KEY_COOKIE_NAME : string = 'spacetradersapikey';
