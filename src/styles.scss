@@ -7,6 +7,7 @@ $blackOlive: #1F271B;
 
 body {
     margin: 0;
+    padding: 10px;
     background-image: radial-gradient($indigo, #16031b);
     color: $sunGlow;
     font-family: "New Amsterdam", sans-serif;
@@ -18,4 +19,55 @@ body {
 html {
     height: 100vh;
     width: 100vw;
+}
+
+a:link {
+    color: $crayola;
+}
+
+a:visited {
+    color: $honeyDew;
+}
+
+a:hover {
+    color: $sunGlow;
+}
+
+a:active {
+    color: $indigo;
+}
+
+button {
+    background-color: $indigo;
+    color: $sunGlow;
+    border: 1px solid $sunGlow;
+    border-radius: 5px;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    font-size: medium;
+}
+
+button:hover {
+    background-color: $honeyDew;
+    color: $blackOlive;
+    font-size: medium;
+}
+
+button
+
+/* Global helper classes */
+.d-flex {
+    display: flex;
+}
+
+.flex-center-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-center-col > span {
+    text-align: center;
 }

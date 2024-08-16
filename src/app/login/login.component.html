@@ -1,1 +1,22 @@
-<p>login works!</p>
+
+
+<div class="flex-center-col">
+    <h1>SPACETRADERS UI (UNOFFICIAL)</h1>
+    <span>This is a UI for the SpaceTraders API.</span>
+    <span>SpaceTraders is an API-based game where you acquire and manage a fleet of ships to explore, trade, and fight your way across the galaxy.</span>
+    <span>See <a href="https://spacetraders.io/">the official website</a> to register and learn more. Once you have an Access token, come back!</span>
+
+    <div class="login-box">
+        <div style="display: flex;">
+            <span>Access token: </span>
+            <input type="text" [(ngModel)]="apiKey" style="flex-grow: 3; margin-left: 5px;"/>
+        </div>  
+        <div style="margin-top: 10px;">
+            <span>Remember access token on this device?</span>
+            <input style="margin-left: 10px;" type="checkbox" [(ngModel)]="remeberOnThisDevice"/>
+        </div>
+        <div style="text-align: center; margin-top:10px;">
+            <button (click)="login()">Login</button>
+        </div>
+    </div>
+</div>
